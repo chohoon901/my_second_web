@@ -42,9 +42,9 @@ section {
 
 .cover-wrapper {
     display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
 }
 
 /*웹툰커버 이미지 스타일*/
