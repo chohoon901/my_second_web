@@ -15,8 +15,8 @@ section {
 .btn-group button {
     display: inline-block; /* 버튼을 인라인 블록 요소로 설정 */
     background-color: white; /* 배경색을 흰색으로 설정 */
-    border: 1px solid black; /* 테두리를 검정색으로 설정 */
-    border-bottom: 2px solid black; /* 하단 테두리만 2px로 설정 */
+    border: 1px solid rgb(255, 255, 255); /* 테두리를 검정색으로 설정 */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493); /* 하단 테두리만 2px로 설정 */
     color: black; /* 글자색을 검정색으로 설정 */
     /* Green border */
     padding: 10px 24px;
