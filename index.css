@@ -40,12 +40,12 @@ section {
     margin-top: 5px;
 }
 
-/* .cover-wrapper {
+.cover-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+    /* justify-content: center;
+    align-items: center; */
+}
 
 /*웹툰커버 이미지 스타일*/
 .cover {
