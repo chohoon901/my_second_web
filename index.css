@@ -40,7 +40,10 @@ section {
 }
 
 .cover-wrapper {
-    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*웹툰커버 이미지 스타일*/
@@ -50,4 +53,10 @@ section {
     height: 350px;
     object-fit: cover;
     margin: 15px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
