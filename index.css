@@ -36,8 +36,8 @@ section {
 }
 
 #covers {
-    margin-top: 5px;
     display: flex;
+    margin-top: 5px;
 }
 
 .cover-wrapper {
