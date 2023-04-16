@@ -55,14 +55,14 @@
             btn.classList.add('active');
             // 선택된 버튼에 맞는 이미지로 변경
             var covers = document.querySelectorAll('#covers img');
-            var h2 = document.querySelector("#covers .title:nth-of-type(1)").textContent;
+            var h2 = document.querySelector("#covers .title:nth-of-type(1)");
             // var h2 = document.querySelectorAll("#covers h2 .title");
             // document.querySelector(".title").innerHTML = "새로운 타이틀";
             for (var i = 0; i < covers.length; i++) {
                 if (btn.innerText === '월') {
                     covers[0].src = 'cover/1.jpg';
                     covers[0].alt = '웹툰1';
-                    h2 = "별의 계승자";
+                    h2.textContent = "별의 계승자";
                     covers[1].src = 'cover/2.jpg';
                     covers[1].alt = '웹툰1';
                     covers[2].src = 'cover/3.jpg';
