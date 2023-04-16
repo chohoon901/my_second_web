@@ -26,12 +26,17 @@ section {
     width: auto; /* 수정된 부분 */
     text-align: center;
     line-height: 1.5; /* 추가된 부분 */
+    margin-bottom: 5px;
 }
 
 /*활성화된 버튼 스타일*/
 .active {
     background-color: #666;
     border: 1px solid #666;
+}
+
+#covers {
+    margin-top: 5px;
 }
 
 /*웹툰커버 이미지 스타일*/
