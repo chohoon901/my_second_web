@@ -14,10 +14,10 @@ section {
 /*버튼 스타일*/
 .btn-group button {
     display: inline-block; /* 버튼을 인라인 블록 요소로 설정 */
-    margin-right: 5px; /* 버튼 간격 설정 */
-    background-color: #4CAF50;
-    /* Green background */
-    border: 1px solid green;
+    background-color: white; /* 배경색을 흰색으로 설정 */
+    border: 1px solid black; /* 테두리를 검정색으로 설정 */
+    border-bottom: 2px solid black; /* 하단 테두리만 2px로 설정 */
+    color: black; /* 글자색을 검정색으로 설정 */
     /* Green border */
     color: white;
     /* White text */
