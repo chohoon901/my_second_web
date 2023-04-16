@@ -14,8 +14,7 @@ section {
 /*버튼 스타일*/
 .btn-group button {
     display: inline-block; /* 버튼을 인라인 블록 요소로 설정 */
-    width: 100px; /* 버튼의 너비를 설정 (원하는 크기로 변경 가능) */
-    margin-right: 10px; /* 버튼 간격 설정 */
+    margin-right: 5px; /* 버튼 간격 설정 */
     background-color: #4CAF50;
     /* Green background */
     border: 1px solid green;
