@@ -55,6 +55,7 @@
             btn.classList.add('active');
             // 선택된 버튼에 맞는 이미지로 변경
             var covers = document.querySelectorAll('#covers img');
+            var h2 = document.querySelector("#covers .title:nth-of-type(2)").textContent
             // var h2 = document.querySelectorAll("#covers h2 .title");
             // document.querySelector(".title").innerHTML = "새로운 타이틀";
             for (var i = 0; i < covers.length; i++) {
@@ -63,7 +64,7 @@
                     covers[0].alt = '웹툰1';
                     covers[1].src = 'cover/2.jpg';
                     covers[1].alt = '웹툰1';
-                    document.querySelector(".title").textContent = "새로운 타이틀";
+                    h2 = "별의 계승자";
                     covers[2].src = 'cover/3.jpg';
                     covers[2].alt = '웹툰1';
                 } else if (btn.innerText === '화') {
