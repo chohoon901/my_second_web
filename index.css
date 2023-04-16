@@ -19,8 +19,6 @@ section {
     border-bottom: 2px solid black; /* 하단 테두리만 2px로 설정 */
     color: black; /* 글자색을 검정색으로 설정 */
     /* Green border */
-    color: white;
-    /* White text */
     padding: 10px 24px;
     /* Some padding */
     cursor: pointer;
