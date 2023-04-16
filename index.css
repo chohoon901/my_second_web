@@ -37,6 +37,7 @@ section {
 
 #covers {
     margin-top: 5px;
+    display: flex;
 }
 
 .cover-wrapper {
