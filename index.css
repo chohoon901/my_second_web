@@ -43,7 +43,7 @@ section {
 .cover {
     display: inline-block;
     width: 15%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     margin: 15px;
 }
